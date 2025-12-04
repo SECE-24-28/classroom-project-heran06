@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    body {
+      font-family: Arial;
+      background:#d3dfef;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      margin:0;
+    }
+    .login-box {
+      background:rgb(248, 248, 244);
+      padding:30px;
+      width:320px;
+      border-radius:10px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align:center; margin-top:0;
+    }
+    label {
+      font-weight:bold;
+    }
+    input {
+      width:100%;
+      padding:10px;
+      margin-top:6px;
+      margin-bottom:14px;
+      border-radius:6px;
+      border:1px solid #ccc;
+    }
+    .btn {
+      width:100%;
+      padding:12px;
+      background:#6ab3da;
+      border:none;
+      color:white;
+      border-radius:8px;
+      font-size:16px;
+      cursor:pointer;
+    }
+    .btn:hover {background:#49a4cb;}
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <h1>Login</h1>
+    <form >
+      <label>Username</label>
+      <input type="text" required>
+
+      <label>Password</label>
+      <input type="password" required>
+
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </div>
+
+</body>
+</html>
